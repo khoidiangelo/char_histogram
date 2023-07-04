@@ -1,6 +1,6 @@
 #include <stdio.h>
-#define MAXCHAR 25
-#define MAXDIG 9
+#define MAXCHAR 26
+#define MAXDIG 10
 void histogram_print(int clength[], int dlength[], int nother) {
     for (int i = 0; i < MAXCHAR; ++i) {
         printf("%4c%c: ", i + 65, i + 97);

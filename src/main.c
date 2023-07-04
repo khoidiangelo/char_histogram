@@ -1,7 +1,7 @@
 #include "histogram_input.c"
 #include "histogram_print.c"
-#define MAXCHAR 25
-#define MAXDIG 9
+#define MAXCHAR 26
+#define MAXDIG 10
 int main() {
     int character_length[MAXCHAR], digit_length[MAXDIG];
     for (int i = 0; i < MAXCHAR; ++i) {

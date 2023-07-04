@@ -1,6 +1,6 @@
 #include <stdio.h>
-#define MAXCHAR 25
-#define MAXDIG 9
+#define MAXCHAR 26
+#define MAXDIG 10
 int histogram_input(int clength[], int dlength[]) {
     // 97 -> 122 is a -> c values of corresponding character in int
     // 65 -> 90  is A -> Z values of corresponding character in int
